@@ -1,0 +1,53 @@
+/* Token desain RuangTemu — palet biru tua, biru terang, putih, abu-abu lembut */
+:root {
+  /* Palet utama */
+  --rt-navy-900: #0B1E3A;
+  --rt-navy-700: #142B52;
+  --rt-blue-500: #1E6FF2;
+  --rt-blue-400: #4A8DFF;
+  --rt-blue-100: #E6F0FF;
+  --rt-white: #FFFFFF;
+  --rt-gray-100: #F4F6FA;
+  --rt-gray-300: #D6DCE5;
+  --rt-gray-500: #6B7A90;
+  --rt-gray-700: #33415C;
+  --rt-danger: #E5484D;
+  --rt-success: #22A06B;
+  --rt-warning: #E5A100;
+
+  /* Tambahan untuk kontras teks WCAG AA (>= 4.5:1) */
+  --rt-gray-600: #566379;
+  --rt-danger-strong: #D13438;
+
+  /* Tipografi */
+  --rt-font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --rt-text-12: 12px;
+  --rt-text-14: 14px;
+  --rt-text-16: 16px;
+  --rt-text-20: 20px;
+  --rt-text-24: 24px;
+  --rt-text-32: 32px;
+  --rt-text-48: 48px;
+  --rt-radius: 12px;
+
+  /* Token semantik (kanal RGB agar mendukung alpha di Tailwind) */
+  --rt-app: 244 246 250;
+  --rt-surface: 255 255 255;
+  --rt-ink: 11 30 58;
+  --rt-muted: 86 99 121;
+  --rt-line: 214 220 229;
+  --rt-soft: 230 240 255;
+
+  color-scheme: light;
+}
+
+.dark {
+  --rt-app: 8 19 36;
+  --rt-surface: 15 33 63;
+  --rt-ink: 236 241 250;
+  --rt-muted: 160 174 196;
+  --rt-line: 38 60 98;
+  --rt-soft: 22 48 92;
+
+  color-scheme: dark;
+}
